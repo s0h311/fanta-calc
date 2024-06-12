@@ -1,5 +1,5 @@
 {
-  "name": "fantastic-calculator",
+  "name": "fanta-calc",
   "version": "0.0.1",
   "description": "",
   "main": "dist/index.cjs",
@@ -8,7 +8,8 @@
   "scripts": {
     "test": "vitest",
     "build": "tsup",
-    "lint": "tsc"
+    "lint": "tsc",
+    "release": "tsup && changeset publish"
   },
   "keywords": [],
   "author": "Soheil Nazari <kontakt@soheilnazari.de>",
